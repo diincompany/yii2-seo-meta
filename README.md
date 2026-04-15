@@ -1,8 +1,16 @@
 # diincompany/yii2-seo-meta
 
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/diincompany/yii2-seo-meta/blob/main/LICENSE)
+
 Widget reutilizable para registrar meta tags SEO, Open Graph y Twitter Cards en aplicaciones Yii2.
 
-## Instalacion
+## Repositorio
+
+El código fuente está disponible en [GitHub](https://github.com/diincompany/yii2-seo-meta).
+
+Para reportar problemas o contribuir, visita los [issues](https://github.com/diincompany/yii2-seo-meta/issues).
+
+## Instalación
 
 ```bash
 composer require diincompany/yii2-seo-meta
@@ -36,7 +44,7 @@ use diincompany\seometa\widgets\SeoMeta;
 echo SeoMeta::widget();
 ```
 
-## Configuracion
+## Configuración
 
 En `config/params.php`:
 
@@ -48,6 +56,11 @@ En `config/params.php`:
     'defaultImage' => '/images/opengraph-default.png',
     'twitterCard' => 'summary_large_image',
     'defaultType' => 'website',
+```
+
+## Licencia
+
+Este proyecto está bajo la licencia BSD-3-Clause.
     'imageType' => 'image/png',
     'imageWidth' => 1200,
     'imageHeight' => 630,
