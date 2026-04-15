@@ -1,0 +1,31 @@
+{
+  "name": "diincompany/yii2-seo-meta",
+  "description": "Reusable SEO and Open Graph metadata widget for Yii2 storefronts",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "yii2",
+    "seo",
+    "open-graph",
+    "twitter-cards",
+    "metadata"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "~2.0.45"
+  },
+  "autoload": {
+    "psr-4": {
+      "diincompany\\seometa\\": ""
+    }
+  },
+  "support": {
+    "issues": "https://github.com/diincompany/yii2-seo-meta/issues",
+    "source": "https://github.com/diincompany/yii2-seo-meta"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
